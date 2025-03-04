@@ -1,5 +1,7 @@
 # ApoorvCTF 2025 Write-up
 
+![image](https://github.com/user-attachments/assets/1b4394dc-61c3-4e75-aff8-95f88aaa39f0)
+
 ## RE - holy rice
 An easy RE challenge with the main function look like this:
 
