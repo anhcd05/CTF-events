@@ -25,3 +25,6 @@ Priority: u=0
 Te: trailers
 ```
 
+## Web - Tic tac toe
+Mot bai web co su dung khai thac docker doc khong hieu, co gang sau nay doc se hieu ro hon
+https://hxuu.github.io/blog/ctf/pearl25/tic-tac-toe/
