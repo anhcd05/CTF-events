@@ -1,4 +1,4 @@
-# Cicadya - Write-up
+# Cicadya - Write-up ( Loose comparison in PHP and File upload vulns at .htaccess )
 ## Introduction
 Here's the writeup of both challenges "Cicadya - Whos the boss?" and "Cicadya - Nice pic bro" that I created for the THCON 2025.\
 I'll try to explain how to solve the challenge from the point of view of someone discovering it for the first time (with the creator's knowledge of course). Because I'm tired of challenge creators who go straight to the answer without explaining and detailing the process that led to solving the challenge.
